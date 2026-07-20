@@ -10,19 +10,23 @@
       type="image/x-icon"
     />
     <!-- Font CDN Link -->
-    <link href="https://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/segoe-fonts@1.0.1/segoe-fonts.min.css"
+      rel="stylesheet"
+    />
 
     <!-- CSS Link -->
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/hero.css" />
     <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
 
     <title>Coffee-House</title>
   </head>
   <body>
     <!-- Header Section Start -->
-    <header class="header" id="home">
+    <header class="header">
       <div class="header-container">
         <nav class="navbar">
           <!-- Logo -->
@@ -88,5 +92,53 @@
       </div>
     </section>
     <!-- About Section End -->
+    <!-- Popular Picks Section Start -->
+    <section class="menu-section" id="menu">
+      <div class="menu-container">
+        <div class="menu-title-container">
+          <h6>Our Menu</h6>
+          <h2 class="menu-title">Popular Picks</h2>
+        </div>
+
+        <div class="menu-cards">
+          <div class="menu-card">
+            <div class="menu-card-image">
+              <img src="./images/cup.png" alt="Espresso" />
+            </div>
+            <h3>Espresso</h3>
+            <p>Bold and strong, made for true coffee lovers.</p>
+            <span>$3.50</span>
+          </div>
+
+          <div class="menu-card">
+            <div class="menu-card-image">
+              <img src="./images/glass.png" alt="Cappuccino" />
+            </div>
+            <h3>Cappuccino</h3>
+            <p>The perfect balance of espresso and milk foam.</p>
+            <span>$4.00</span>
+          </div>
+
+          <div class="menu-card">
+            <div class="menu-card-image">
+              <img src="./images/cube.png" alt="Latte" />
+            </div>
+            <h3>Cold Brew</h3>
+            <p>A cool, refreshing cup for a hot day.</p>
+            <span>$4.50</span>
+          </div>
+
+          <div class="menu-card">
+            <div class="menu-card-image">
+              <img src="./images/chocolate.png" alt="Mocha" />
+            </div>
+            <h3>Mocha</h3>
+            <p>A rich blend of chocolate and coffee.</p>
+            <span>$5.25</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Popular Picks Section End -->
   </body>
 </html>
