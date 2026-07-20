@@ -1,0 +1,72 @@
+/* Gallery Section */
+.gallery-section {
+  width: 1209px;
+  height: 400px;
+  margin: 80px auto;
+}
+.gallery-container {
+  max-width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+  background: url("../images/coffee-making.avif") center/cover no-repeat;
+  border-radius: 15px;
+  position: relative;
+}
+
+/* Gallery Always Open */
+.gallery-always-open-container {
+  width: 265px;
+  height: 100px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.gallery-always-open-container h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #2e2622;
+}
+.gallery-always-open-container p {
+  font-size: 13px;
+  color: #5a4f47;
+  line-height: 1.8;
+}
+
+/* Gallery 24/7 */
+.gallery-247-container {
+  width: 100px;
+  height: 100px;
+  padding: 14px 22px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  position: absolute;
+  right: 25px;
+  top: 25px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.gallery-247-container h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2e2622;
+  line-height: 1;
+}
+.gallery-247-container p {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #7a6f63;
+  line-height: 1;
+}
